@@ -1,0 +1,32 @@
+
+          Definition
+
+   *Define a class that has only one instance and provides
+   a global point of access that instance.
+****************************************************************
+          Requirements
+
+   *One and only one instance
+   *global access
+   *no ownerShip
+   *lazy initialization
+****************************************************************
+          Advantages
+
+   *save memory.
+     -only one is required so why create so many.
+   *single access point.
+     -logger,database connection.
+   *flexibility.
+     -shange any time you want to.
+******************************************************************
+         usage
+
+    *multithreaded
+        -thread pool
+    *database application
+        -logging
+    *configuration Setting
+        -gave setting,application setting,etc
+
+
